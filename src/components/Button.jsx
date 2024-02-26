@@ -1,8 +1,9 @@
-export default function Button({ label, icon, to }) {
+export default function Button({ label, icon, to, target = "_blank" }) {
   return (
     <>
       {label && (
         <a
+          target={target}
           href={to}
           className="text-white bg-[#ed2020] flex gap-2 max-w-[173px] justify-center items-center px-10 rounded-3xl py-2.5 transition-all duration-300
       hover:-translate-y-1.5
@@ -16,6 +17,7 @@ export default function Button({ label, icon, to }) {
 
       {!label && (
         <a
+          target={target}
           href={to}
           className="text-white bg-[#ed2020] flex gap-2 max-w-[173px] p-3 justify-center items-center rounded-full transition-all duration-300
       hover:-translate-y-1.5

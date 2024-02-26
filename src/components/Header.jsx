@@ -12,7 +12,9 @@ export default function Header() {
           </span>
           <Button
             label={"contato"}
-            to={"#"}
+            to={
+              "https://api.whatsapp.com/send/?phone=&text&type=phone_number&app_absent=0"
+            }
             icon={<WhatsAppIcon sx={{ fontSize: 27 }} />}
           />
         </div>

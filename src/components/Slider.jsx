@@ -16,7 +16,10 @@ export default function Slider({ info }) {
           <span className="text-zinc-400 font-light max-sm:text-sm">
             Entre em contato conosco
           </span>
-          <Button icon={<WhatsAppIcon sx={{ fontSize: "35px" }} />} to="#" />
+          <Button
+            icon={<WhatsAppIcon sx={{ fontSize: "35px" }} />}
+            to="https://api.whatsapp.com/send/?phone=&text&type=phone_number&app_absent=0"
+          />
         </div>
       </div>
     </div>

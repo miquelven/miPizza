@@ -22,8 +22,19 @@ export default function Main() {
               nós podemos te surpreender!
             </h3>
             <div className="flex gap-4 max-[420px]:flex-col">
-              <Button label={"localização"} icon={<LocationOnIcon />} to={""} />
-              <Button label={"contato"} icon={<WhatsAppIcon />} to={""} />
+              <Button
+                label={"localização"}
+                icon={<LocationOnIcon />}
+                to={"#location"}
+                target="_self"
+              />
+              <Button
+                label={"contato"}
+                icon={<WhatsAppIcon />}
+                to={
+                  "https://api.whatsapp.com/send/?phone=&text&type=phone_number&app_absent=0"
+                }
+              />
             </div>
           </div>
 
@@ -75,7 +86,12 @@ export default function Main() {
                 Entre em contato conosco da MiPizza através do Whatsapp para
                 fazer seu pedido.
               </p>
-              <Button label={"acessar"} to={"#"} icon="" />
+              <Button
+                label={"acessar"}
+                to={
+                  "https://api.whatsapp.com/send/?phone=&text&type=phone_number&app_absent=0"
+                }
+              />
             </div>
 
             <div className="max-w-72 flex flex-col items-center gap-7">
@@ -87,13 +103,13 @@ export default function Main() {
                 Entre em contato conosco da MiPizza através do Instagram para
                 fazer seu pedido.
               </p>
-              <Button label={"acessar"} to={"#"} icon="" />
+              <Button label={"acessar"} />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="w-full mb-20 mt-40 ">
+      <section id="location" className="w-full mb-20 mt-40 ">
         <div className="max-w-[1750px] mx-auto">
           <div className="mb-14 max-2xl:px-5">
             <h3 className="text-3xl font-normal mb-1 max-sm:mb-5 ">

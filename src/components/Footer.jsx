@@ -15,7 +15,10 @@ export default function Footer() {
             Conecte-se Conosco:{" "}
           </span>
           <div className="flex gap-3 max-sm:self-end">
-            <a href="#">
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send/?phone=&text&type=phone_number&app_absent=0"
+            >
               <WhatsAppIcon style={{ color: "white" }} />
             </a>
             <a href="#">

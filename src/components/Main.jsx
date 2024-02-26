@@ -1,0 +1,125 @@
+import Button from "./Button";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import heroImg from "../assets/images/heroImg.png";
+import SliderArea from "./SliderArea";
+import contatoImg from "../assets/images/contato.png";
+
+export default function Main() {
+  return (
+    <>
+      <section className="w-full mt-24 h-[calc(100vh-380px)] relative max-md:mt-32 max-[420px]:mb-10">
+        <div className="max-w-[1650px] mx-auto flex px-10">
+          <div className="flex flex-col gap-8 max-w-[600px] absolute z-50">
+            <span className="text-zinc-400 ">Mi Pizza</span>
+            <h1 className="text-6xl font-medium max-xl:text-5xl ">
+              As melhores pizzas do mercado!
+            </h1>
+            <h3 className="leading-8 text-zinc-400 font-normal">
+              Oferecemos diversos tipos de pizzas, desde doces à salgadas.
+              Pizzas saborosas e da melhor qualidade. Visite-nos e descubra como
+              nós podemos te surpreender!
+            </h3>
+            <div className="flex gap-4 max-[420px]:flex-col">
+              <Button label={"localização"} icon={<LocationOnIcon />} to={""} />
+              <Button label={"contato"} icon={<WhatsAppIcon />} to={""} />
+            </div>
+          </div>
+
+          <img
+            src={heroImg}
+            alt="Imagem da home"
+            className="absolute w-full  left-[800px] -top-10 h-full max-md:bottom-0 max-md:-top-20 max-md:left-32 max-md:h-1/2"
+          />
+        </div>
+      </section>
+
+      <section className="w-full mb-10 max-lg:mt-14 max-sm:mt-32">
+        <div className="max-w-[1750px] mx-auto px-10">
+          <h3 className="text-3xl font-normal">Pizzas Disponíveis</h3>
+          <p className="text-zinc-400 leading-7">
+            Encontre todos os produtos abaixo na MiPizza. Paixão e qualidade.
+          </p>
+          <div className="px-5 mt-5 max-sm:px-0">
+            <SliderArea />
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full mt-80 h-[calc(100vh-300px)] relative flex max-lg:mb-20 max-md:mb-96 ">
+        <div className="brightness-90 absolute -top-[200px] -right-[300px] ">
+          <img
+            src={contatoImg}
+            alt="Imagem da parte de contato"
+            className="max-h-[800px] brightness-75 rotate-[230deg] selection:bg-transparent opacity-40"
+          />
+        </div>
+        <div className="flex gap-5 justify-center items-center flex-col mx-auto relative z-50 ">
+          <div className="font-normal mb-20 max-sm:mb-10  ">
+            <h3 className="capitalize text-5xl font-medium text-center mb-5 max-xl:text-4xl">
+              contatos
+            </h3>
+            <p className="w-96 mx-5 max-sm:text-sm max-sm:mx-0 max-sm:px-4 max-sm:font-medium">
+              Entre em contato conosco da MiPizza para pedir sua pizza, temos
+              vários sabores e com o melhor preço e qualidade.
+            </p>
+          </div>
+          <div className="flex mt-10 justify-center items-center gap-10 max-sm:flex-col max-sm:gap-20">
+            <div className="max-w-72 flex justify-center  items-center flex-col gap-7 ">
+              <div className="flex flex-col justify-center items-center gap-4">
+                <WhatsAppIcon sx={{ fontSize: "50px" }} />
+                <span className="font-normal text-2xl">Whatsapp</span>
+              </div>
+              <p className="leading-7">
+                Entre em contato conosco da MiPizza através do Whatsapp para
+                fazer seu pedido.
+              </p>
+              <Button label={"acessar"} to={"#"} icon="" />
+            </div>
+
+            <div className="max-w-72 flex flex-col items-center gap-7">
+              <div className="flex flex-col gap-4 justify-center items-center">
+                <InstagramIcon sx={{ fontSize: "50px" }} />
+                <span className="font-normal text-2xl">Instagram</span>
+              </div>
+              <p className=" leading-7">
+                Entre em contato conosco da MiPizza através do Instagram para
+                fazer seu pedido.
+              </p>
+              <Button label={"acessar"} to={"#"} icon="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full mb-20 mt-40 ">
+        <div className="max-w-[1750px] mx-auto">
+          <div className="mb-14 max-2xl:px-5">
+            <h3 className="text-3xl font-normal mb-1 max-sm:mb-5 ">
+              Localização da Loja
+            </h3>
+
+            <p className="text-zinc-500">
+              Estamos prontos para te atender, com uma localização estratégica e
+              de fácil acesso. Visite-nos para que possa desfrutar das melhores
+              pizzas.
+            </p>
+          </div>
+
+          <div className="w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.639019611244!2d-47.6535165236552!3d-22.70447813067408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1561c71cafecf3d%3A0x974242491a4970d9!2sPizza%20Hut%20Arei%C3%A3o%3A%20Pizzaria%2C%20Delivery%20em%20Piracicaba%20SP!5e0!3m2!1spt-PT!2sbr!4v1708979424908!5m2!1spt-PT!2sbr"
+              height="450"
+              style={{ border: "0" }}
+              className="w-11/12 mx-auto min-w-[640px]"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

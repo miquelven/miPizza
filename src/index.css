@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #f4f4f8;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+#pizzaFlavors {
+  scrollbar-color: #888 transparent;
+  scrollbar-width: thin;
+}

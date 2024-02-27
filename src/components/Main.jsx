@@ -21,7 +21,7 @@ export default function Main() {
               Pizzas saborosas e da melhor qualidade. Visite-nos e descubra como
               nós podemos te surpreender!
             </h3>
-            <div className="flex gap-4 items-center ">
+            <div className="flex gap-4 items-center max-sm:mr-3 ">
               <Button
                 label={"localização"}
                 icon={<LocationOnIcon />}

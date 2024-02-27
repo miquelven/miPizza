@@ -39,7 +39,7 @@ export default function Footer() {
                 dos seus sonhos.
               </p>
             </div>
-            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-center">
+            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-start max-sm:pl-10">
               <h5 className="uppercase text-red-500 mb-3 font-semibold">
                 sabores
               </h5>
@@ -76,7 +76,7 @@ export default function Footer() {
                   local: Av. Limeira, 722 - Areião, Piracicaba - SP, 13414-018
                 </p>
               </div>
-              <div className="flex  gap-4">
+              <div className="flex  gap-4 max-sm:self-start">
                 <LocalPhoneIcon />
                 <p>tel: (99) 99999999</p>
               </div>

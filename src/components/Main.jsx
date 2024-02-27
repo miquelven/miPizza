@@ -12,11 +12,11 @@ export default function Main() {
       <section className="w-full mt-10 h-[calc(100vh-380px)] relative max-md:mt-32 max-[420px]:mb-10">
         <div className="max-w-[1650px] mx-auto flex px-10">
           <div className="flex flex-col gap-8 max-w-[600px] absolute z-50">
-            <span className="text-zinc-400 ">Mi Pizza</span>
-            <h1 className="text-6xl font-medium max-xl:text-5xl ">
+            <span className="text-zinc-500 ">Mi Pizza</span>
+            <h1 className="text-6xl font-bold text-zinc-800 max-xl:text-5xl ">
               As melhores pizzas do mercado!
             </h1>
-            <h3 className="leading-8 text-zinc-400 font-normal">
+            <h3 className="leading-8 text-zinc-500 font-normal">
               Oferecemos diversos tipos de pizzas, desde doces à salgadas.
               Pizzas saborosas e da melhor qualidade. Visite-nos e descubra como
               nós podemos te surpreender!
@@ -48,10 +48,10 @@ export default function Main() {
 
       <section className="w-full mt-16 mb-10 max-lg:mt-14 max-sm:mt-32">
         <div className="max-w-[1750px] mx-auto px-10">
-          <h3 className="text-3xl font-normal">Pizzas Disponíveis</h3>
-          <p className="text-zinc-400 leading-7">
+          <h3 className="text-3xl font-bold">Pizzas Disponíveis</h3>
+          <h4 className="text-zinc-500 font-semibold leading-7">
             Encontre todos os produtos abaixo na MiPizza. Paixão e qualidade.
-          </p>
+          </h4>
           <div className="px-5 mt-5 max-sm:px-0">
             <SliderArea />
           </div>
@@ -68,13 +68,13 @@ export default function Main() {
         </div>
         <div className="flex gap-5 justify-center items-center flex-col mx-auto relative z-50 ">
           <div className="font-normal mb-20 max-sm:mb-10  ">
-            <h3 className="capitalize text-5xl font-medium text-center mb-5 max-xl:text-4xl">
+            <h3 className="capitalize text-5xl font-bold text-zinc-800 text-center mb-5 max-xl:text-4xl max-sm:text-3xl">
               contatos
             </h3>
-            <p className="w-96 mx-5 max-sm:text-sm max-sm:mx-0 max-sm:px-4 max-sm:font-medium">
+            <h4 className="w-96 mx-5 font-semibold max-sm:text-sm max-sm:mx-0 max-sm:px-4 ">
               Entre em contato conosco da MiPizza para pedir sua pizza, temos
               vários sabores e com o melhor preço e qualidade.
-            </p>
+            </h4>
           </div>
           <div className="flex mt-10 justify-center items-center gap-10 max-sm:flex-col max-sm:gap-20">
             <div className="max-w-72 flex justify-center  items-center flex-col gap-7 ">
@@ -112,15 +112,15 @@ export default function Main() {
       <section id="location" className="w-full mb-20 mt-40 ">
         <div className="max-w-[1750px] mx-auto">
           <div className="mb-14 max-2xl:px-5">
-            <h3 className="text-3xl font-normal mb-1 max-sm:mb-5 ">
+            <h3 className="text-4xl font-bold text-zinc-800 mb-1 max-xl:text-3xl max-sm:mb-5 max-sm:text-2xl ">
               Localização da Loja
             </h3>
 
-            <p className="text-zinc-500">
+            <h4 className="text-zinc-500 font-semibold">
               Estamos prontos para te atender, com uma localização estratégica e
               de fácil acesso. Visite-nos para que possa desfrutar das melhores
               pizzas.
-            </p>
+            </h4>
           </div>
 
           <div className="w-full">

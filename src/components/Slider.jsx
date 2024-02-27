@@ -10,8 +10,8 @@ export default function Slider({ info }) {
         alt="Imagem de uma pizza"
       />
       <div className="px-9">
-        <h2 className="py-8 text-2xl font-medium">{info.title}</h2>
-        <p className="text-zinc-500">{info.subtitle}</p>
+        <h2 className="py-8 font-semibold text-2xl">{info.title}</h2>
+        <h4 className="font-medium text-zinc-500">{info.subtitle}</h4>
         <div className="flex justify-between items-center mt-14  max-sm:mt-12">
           <span className="text-zinc-400 font-light max-sm:text-sm">
             Entre em contato conosco

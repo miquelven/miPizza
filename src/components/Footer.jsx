@@ -8,10 +8,10 @@ export default function Footer() {
   const currentDate = new Date().getFullYear().toString();
 
   return (
-    <footer className="mt-16 w-full bg-zinc-800 text-white ">
+    <footer className="mt-16 w-full bg-zinc-800 text-white font-light">
       <div className="max-w-[1500px] mx-auto ">
-        <div className="py-8 border-b-2 border-zinc-400 flex justify-between max-2xl:px-5 max-sm:flex-col max-sm:gap-5">
-          <span className="text-xl font-normal max-sm:text-lg">
+        <div className="py-8 border-b-2 border-zinc-400 flex justify-between max-2xl:px-5 max-sm:gap-5">
+          <span className="text-xl  max-sm:text-base">
             Conecte-se Conosco:{" "}
           </span>
           <div className="flex gap-3 max-sm:self-end">
@@ -27,19 +27,19 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex max-2xl:px-5">
-          <div className="mt-14 gap-14 w-full grid grid-cols-4 max-md:grid-cols-2 max-md:gap-20 max-sm:grid-cols-1">
-            <div className="flex flex-col gap-3 flex-1">
+          <div className="mt-14 gap-14 w-full grid grid-cols-4 max-md:grid-cols-2 max-md:gap-20 max-sm:grid-cols-1 ">
+            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-center">
               <h5 className="uppercase text-red-500 mb-3 font-semibold">
                 mipizza
               </h5>
-              <p>
+              <p className="max-sm:text-center">
                 Na nossa pizzaria, cada sabor é meticulosamente elaborado,
                 combinando a tradição das receitas familiares com a inovação dos
                 ingredientes frescos, para oferecer a experiência gastronômica
                 dos seus sonhos.
               </p>
             </div>
-            <div className="flex flex-col gap-3 flex-1 ">
+            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-center">
               <h5 className="uppercase text-red-500 mb-3 font-semibold">
                 sabores
               </h5>
@@ -59,26 +59,26 @@ export default function Footer() {
                 <p className="capitalize">portuguesa</p>
               </div>
             </div>
-            <div className="flex flex-col gap-3 flex-1">
+            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-center">
               <h5 className="uppercase text-red-500 mb-3 font-semibold">
                 links
               </h5>
               <p>Instagram</p>
               <p>WhatsApp</p>
             </div>
-            <div className="flex flex-col gap-3 flex-1">
+            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto  max-sm:items-center max-sm:w-72 max-sm:gap-8 max-sm:mb-5">
               <h5 className="uppercase text-red-500 mb-3 font-semibold">
                 contatos
               </h5>
-              <div className="flex gap-4">
+              <div className="flex gap-4 max-sm:items-center">
                 <HomeIcon />
-                <p className="inline">
+                <p>
                   local: Av. Limeira, 722 - Areião, Piracicaba - SP, 13414-018
                 </p>
               </div>
               <div className="flex  gap-4">
                 <LocalPhoneIcon />
-                <p className="inline">tel: (99) 99999999</p>
+                <p>tel: (99) 99999999</p>
               </div>
             </div>
           </div>

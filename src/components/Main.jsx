@@ -21,7 +21,7 @@ export default function Main() {
               Pizzas saborosas e da melhor qualidade. Visite-nos e descubra como
               nós podemos te surpreender!
             </h3>
-            <div className="flex gap-4 max-sm:scale-95 max-sm:-ml-5">
+            <div className="flex gap-4 items-center ">
               <Button
                 label={"localização"}
                 icon={<LocationOnIcon />}
@@ -46,7 +46,7 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="w-full mt-16 mb-10 max-lg:mt-14 max-sm:mt-32">
+      <section className="w-full mt-16 mb-10 max-lg:mt-14 max-sm:mt-44">
         <div className="max-w-[1750px] mx-auto px-10">
           <h3 className="text-3xl font-bold">Pizzas Disponíveis</h3>
           <h4 className="text-zinc-500 font-light leading-7">

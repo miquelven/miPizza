@@ -12,11 +12,11 @@ export default function Main() {
       <section className="w-full mt-10 h-[calc(100vh-380px)] relative max-md:mt-32 max-[420px]:mb-10">
         <div className="max-w-[1650px] mx-auto flex px-10">
           <div className="flex flex-col gap-8 max-w-[600px] absolute z-50">
-            <span className="text-zinc-500 ">Mi Pizza</span>
+            <span className="text-zinc-500 font-medium">Mi Pizza</span>
             <h1 className="text-6xl font-bold text-zinc-800 max-xl:text-5xl ">
               As melhores pizzas do mercado!
             </h1>
-            <h3 className="leading-8 text-zinc-500 font-normal">
+            <h3 className="leading-8 text-zinc-500 font-light">
               Oferecemos diversos tipos de pizzas, desde doces à salgadas.
               Pizzas saborosas e da melhor qualidade. Visite-nos e descubra como
               nós podemos te surpreender!
@@ -49,7 +49,7 @@ export default function Main() {
       <section className="w-full mt-16 mb-10 max-lg:mt-14 max-sm:mt-32">
         <div className="max-w-[1750px] mx-auto px-10">
           <h3 className="text-3xl font-bold">Pizzas Disponíveis</h3>
-          <h4 className="text-zinc-500 font-semibold leading-7">
+          <h4 className="text-zinc-500 font-light leading-7">
             Encontre todos os produtos abaixo na MiPizza. Paixão e qualidade.
           </h4>
           <div className="px-5 mt-5 max-sm:px-0">
@@ -71,7 +71,7 @@ export default function Main() {
             <h3 className="capitalize text-5xl font-bold text-zinc-800 text-center mb-5 max-xl:text-4xl max-sm:text-3xl">
               contatos
             </h3>
-            <h4 className="w-96 mx-5 font-semibold max-sm:text-sm max-sm:mx-0 max-sm:px-4 ">
+            <h4 className="w-96 mx-5  font-light max-sm:text-sm max-sm:mx-0 max-sm:px-4 ">
               Entre em contato conosco da MiPizza para pedir sua pizza, temos
               vários sabores e com o melhor preço e qualidade.
             </h4>
@@ -82,7 +82,7 @@ export default function Main() {
                 <WhatsAppIcon sx={{ fontSize: "50px" }} />
                 <span className="font-normal text-2xl">Whatsapp</span>
               </div>
-              <p className="leading-7">
+              <p className="leading-7 font-light">
                 Entre em contato conosco da MiPizza através do Whatsapp para
                 fazer seu pedido.
               </p>
@@ -95,11 +95,11 @@ export default function Main() {
             </div>
 
             <div className="max-w-72 flex flex-col items-center gap-7">
-              <div className="flex flex-col gap-4 justify-center items-center">
+              <div className="flex flex-col  gap-4 justify-center items-center">
                 <InstagramIcon sx={{ fontSize: "50px" }} />
                 <span className="font-normal text-2xl">Instagram</span>
               </div>
-              <p className=" leading-7">
+              <p className=" leading-7 font-light">
                 Entre em contato conosco da MiPizza através do Instagram para
                 fazer seu pedido.
               </p>
@@ -128,7 +128,7 @@ export default function Main() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.639019611244!2d-47.6535165236552!3d-22.70447813067408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1561c71cafecf3d%3A0x974242491a4970d9!2sPizza%20Hut%20Arei%C3%A3o%3A%20Pizzaria%2C%20Delivery%20em%20Piracicaba%20SP!5e0!3m2!1spt-PT!2sbr!4v1708979424908!5m2!1spt-PT!2sbr"
               height="450"
               style={{ border: "0" }}
-              className="w-11/12 mx-auto min-w-[640px]"
+              className="w-11/12 mx-auto max-sm:w-full"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"

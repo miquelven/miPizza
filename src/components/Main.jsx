@@ -2,14 +2,14 @@ import Button from "./Button";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import heroImg from "../assets/images/heroImg.png";
+import heroImg from "../assets/images/heroImg.webp";
 import SliderArea from "./SliderArea";
-import contatoImg from "../assets/images/contato.png";
+import contatoImg from "../assets/images/contato.webp";
 
 export default function Main() {
   return (
     <>
-      <section className="w-full mt-24 h-[calc(100vh-380px)] relative max-md:mt-32 max-[420px]:mb-10">
+      <section className="w-full mt-10 h-[calc(100vh-380px)] relative max-md:mt-32 max-[420px]:mb-10">
         <div className="max-w-[1650px] mx-auto flex px-10">
           <div className="flex flex-col gap-8 max-w-[600px] absolute z-50">
             <span className="text-zinc-400 ">Mi Pizza</span>
@@ -41,12 +41,12 @@ export default function Main() {
           <img
             src={heroImg}
             alt="Imagem da home"
-            className="absolute w-full  left-[800px] -top-10 h-full max-md:bottom-0 max-md:-top-20 max-md:left-32 max-md:h-1/2"
+            className="absolute w-full  left-[800px] top-10 h-full max-md:bottom-0 max-md:-top-20 max-md:left-32 max-md:h-1/2"
           />
         </div>
       </section>
 
-      <section className="w-full mb-10 max-lg:mt-14 max-sm:mt-32">
+      <section className="w-full mt-16 mb-10 max-lg:mt-14 max-sm:mt-32">
         <div className="max-w-[1750px] mx-auto px-10">
           <h3 className="text-3xl font-normal">Pizzas Disponíveis</h3>
           <p className="text-zinc-400 leading-7">

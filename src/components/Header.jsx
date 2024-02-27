@@ -1,10 +1,10 @@
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo.webp";
 import Button from "./Button";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Header() {
   return (
-    <header className="w-full pt-9">
+    <header className="w-full pt-7">
       <div className="mx-auto max-w-[1800px]">
         <div className="flex justify-between items-center mx-5">
           <span className="text-[#ed2020] font-semibold text-3xl max-[420px]:text-2xl">

@@ -1,13 +1,13 @@
-import pizzaQueijo from "../assets/images/pizzas/4 queijos.png";
+import pizzaQueijo from "../assets/images/pizzas/4 queijos.webp";
 import pizzaBananaCanela from "../assets/images/pizzas/banana com canela.webp";
-import pizzaBrigadeiro from "../assets/images/pizzas/brigadeiro com morango.jpeg";
-import pizzaCalabresa from "../assets/images/pizzas/calabresa.png";
+import pizzaBrigadeiro from "../assets/images/pizzas/brigadeiro com morango.webp";
+import pizzaCalabresa from "../assets/images/pizzas/calabresa.webp";
 import pizzaCalifornia from "../assets/images/pizzas/california.webp";
-import pizzaFrangoCatupiry from "../assets/images/pizzas/frango catupiry.png";
-import pizzaMargarita from "../assets/images/pizzas/margarita.avif";
-import pizzaNapolitana from "../assets/images/pizzas/napolitana.png";
-import pizzaPessego from "../assets/images/pizzas/pessego pera abacaxi.jpg";
-import pizzaPortuguesa from "../assets/images/pizzas/portuguesa.png";
+import pizzaFrangoCatupiry from "../assets/images/pizzas/frango-catupiry.webp";
+import pizzaMargarita from "../assets/images/pizzas/margarita.webp";
+import pizzaNapolitana from "../assets/images/pizzas/napolitana.webp";
+import pizzaPessego from "../assets/images/pizzas/pessego-pera-abacaxi.webp";
+import pizzaPortuguesa from "../assets/images/pizzas/portuguesa.webp";
 
 export const sliderInfos = [
   {

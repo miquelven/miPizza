@@ -19,7 +19,7 @@ export default () => {
         slides: { perView: 2, spacing: 30 },
       },
       "(min-width: 1000px)": {
-        slides: { perView: 2, spacing: 0 },
+        slides: { perView: 2, spacing: 20 },
       },
       "(min-width: 1300px)": {
         slides: { perView: 3, spacing: 50 },

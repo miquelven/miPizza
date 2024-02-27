@@ -8,9 +8,9 @@ import contatoImg from "../assets/images/contato.webp";
 
 export default function Main() {
   return (
-    <>
-      <section className="w-full mt-10 h-[calc(100vh-380px)] relative max-md:mt-32 max-[420px]:mb-10">
-        <div className="max-w-[1650px] mx-auto flex px-10">
+    <main className="overflow-x-hidden">
+      <section className="w-full mt-10 h-[calc(100vh-380px)]  relative max-md:mt-32  max-[420px]:mb-10 ">
+        <div className="max-w-[1650px] mx-auto flex px-10 max-sm:px-5">
           <div className="flex flex-col gap-8 max-w-[600px] absolute z-50">
             <span className="text-zinc-500 font-medium">Mi Pizza</span>
             <h1 className="text-6xl font-bold text-zinc-800 max-xl:text-5xl ">
@@ -21,7 +21,7 @@ export default function Main() {
               Pizzas saborosas e da melhor qualidade. Visite-nos e descubra como
               nós podemos te surpreender!
             </h3>
-            <div className="flex gap-4 max-[420px]:flex-col">
+            <div className="flex gap-4 max-sm:scale-95 max-sm:-ml-5">
               <Button
                 label={"localização"}
                 icon={<LocationOnIcon />}
@@ -41,7 +41,7 @@ export default function Main() {
           <img
             src={heroImg}
             alt="Imagem da home"
-            className="absolute w-full  left-[800px] top-10 h-full max-md:bottom-0 max-md:-top-20 max-md:left-32 max-md:h-1/2"
+            className="absolute w-full  left-[800px] top-30 h-full max-md:bottom-0 max-md:-top-20 max-md:left-32 max-md:h-1/2"
           />
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="w-full mt-80 h-[calc(100vh-300px)] relative flex max-lg:mb-20 max-md:mb-96 ">
+      <section className="w-full mt-80 h-[calc(100vh-300px)] relative flex max-lg:mb-20 max-md:mb-96">
         <div className="brightness-90 absolute -top-[200px] -right-[300px] ">
           <img
             src={contatoImg}
@@ -67,11 +67,11 @@ export default function Main() {
           />
         </div>
         <div className="flex gap-5 justify-center items-center flex-col mx-auto relative z-50 ">
-          <div className="font-normal mb-20 max-sm:mb-10  ">
+          <div className="font-normal mb-20 max-sm:mb-10">
             <h3 className="capitalize text-5xl font-bold text-zinc-800 text-center mb-5 max-xl:text-4xl max-sm:text-3xl">
               contatos
             </h3>
-            <h4 className="w-96 mx-5  font-light max-sm:text-sm max-sm:mx-0 max-sm:px-4 ">
+            <h4 className="max-w-96 font-light max-sm:text-sm max-sm:mx-4 max-sm:text-center  ">
               Entre em contato conosco da MiPizza para pedir sua pizza, temos
               vários sabores e com o melhor preço e qualidade.
             </h4>
@@ -136,6 +136,6 @@ export default function Main() {
           </div>
         </div>
       </section>
-    </>
+    </main>
   );
 }

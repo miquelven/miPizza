@@ -39,7 +39,7 @@ export default function Footer() {
                 dos seus sonhos.
               </p>
             </div>
-            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-start max-sm:pl-10">
+            <div className="flex flex-col gap-3 flex-1 max-sm:mx-auto max-sm:items-start max-sm:pl-14">
               <h5 className="uppercase text-red-500 mb-3 font-semibold">
                 sabores
               </h5>
